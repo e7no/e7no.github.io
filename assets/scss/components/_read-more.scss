@@ -1,0 +1,36 @@
+// ------------------------------
+// READ MORE
+// ------------------------------
+
+.read-more {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+  .post-list__post-title{
+    font-size: 1.2em;
+  }
+}
+
+.read-more-item {
+  display: inline;
+  width: 48%;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+}
+
+.read-more-item-dim {
+  display: inline-block;
+  color: $hover-color;
+  font-size: .8em;
+  padding-bottom: .5em;
+}
+
+.read-more-item.read-more-item-left {
+  float: left;
+  text-align: left;
+}
+  
+.read-more-item.read-more-item-right {
+  float: right;
+  text-align: right;
+}
